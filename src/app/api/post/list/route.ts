@@ -1,6 +1,6 @@
 import { NextRequest } from "next/server";
 import { withApiHandler } from "@/utils/withApiHandler";
-import { error, success } from "@/utils/apiResponse";
+import { success } from "@/utils/apiResponse";
 import { DB_NAME } from "@/config/constants";
 import clientPromise from "@/lib/mongodb";
 

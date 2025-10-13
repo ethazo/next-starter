@@ -6,7 +6,7 @@ import useQueryPost from "@/hooks/use-query-post";
 
 const Content = () => {
   const router = useRouter();
-  const { data, isLoading, error } = useQueryPost();
+  const { data } = useQueryPost();
 
   return (
     <div>
